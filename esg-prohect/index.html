@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESG 永續顧問 | 專業數位轉型方案</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .glass { background: rgba(255, 255, 255, 0.03); backdrop-filter: blur(10px); }
+        .text-gradient { background: linear-gradient(to right, #4ade80, #2dd4bf); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    </style>
+</head>
+<body class="bg-[#0f172a] text-slate-200 font-sans leading-relaxed">
+
+    <nav class="fixed w-full z-50 glass border-b border-slate-800">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold tracking-tighter text-white">ESG <span class="text-green-400">Consultant</span></div>
+            <div class="hidden md:flex space-x-8 text-sm font-medium uppercase tracking-widest">
+                <a href="#about" class="hover:text-green-400 transition">關於永續</a>
+                <a href="#services" class="hover:text-green-400 transition">服務項目</a>
+                <a href="#contact" class="px-4 py-2 bg-green-500/10 border border-green-500/50 rounded-full text-green-400 hover:bg-green-500 hover:text-white transition">立即諮詢</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="relative pt-32 pb-20 overflow-hidden">
+        <div class="max-w-7xl mx-auto px-6 relative z-10">
+            <div class="max-w-3xl">
+                <h1 class="text-5xl md:text-7xl font-extrabold text-white mb-6 leading-tight">
+                    用 AI 調度實現 <br><span class="text-gradient">永續轉型</span> 的未來
+                </h1>
+                <p class="text-lg text-slate-400 mb-10 leading-relaxed">
+                    我們將您的 ESG 願景轉化為具備數據透明度與國際視覺標準的數位資產。利用自動化技術，讓永續報告不再只是紙本，而是活生生的數位影響力。
+                </p>
+                <div class="flex gap-4">
+                    <button class="px-8 py-4 bg-green-500 text-slate-900 font-bold rounded-xl hover:bg-green-400 transition">查看方案</button>
+                    <button class="px-8 py-4 glass border border-slate-700 font-bold rounded-xl hover:bg-slate-800 transition">了解更多</button>
+                </div>
+            </div>
+        </div>
+        <div class="absolute top-0 right-0 w-1/2 h-full opacity-20 pointer-events-none">
+            <div class="w-full h-full bg-gradient-to-l from-green-500/20 to-transparent"></div>
+        </div>
+    </section>
+
+    <section id="services" class="py-20 bg-slate-900/50">
+        <div class="max-w-7xl mx-auto px-6 text-center mb-16">
+            <h2 class="text-3xl font-bold text-white mb-4">專業 ESG 數位服務</h2>
+            <div class="w-20 h-1 bg-green-500 mx-auto"></div>
+        </div>
+        <div class="grid md:grid-cols-3 gap-8 max-w-7xl mx-auto px-6">
+            <div class="p-8 rounded-3xl glass border border-slate-800 hover:border-green-500/50 transition group">
+                <div class="w-12 h-12 bg-green-500/10 rounded-2xl flex items-center justify-center mb-6 text-green-400 group-hover:bg-green-500 group-hover:text-slate-900 transition">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+                </div>
+                <h3 class="text-xl font-bold text-white mb-4">品牌視覺調度</h3>
+                <p class="text-sm text-slate-400">利用 AI 針對 ESG 主題生成具國際感的商業視覺，補強圖文草稿，提升品牌高度。</p>
+            </div>
+            <div class="p-8 rounded-3xl glass border border-slate-800 hover:border-green-500/50 transition group">
+                <div class="w-12 h-12 bg-green-500/10 rounded-2xl flex items-center justify-center mb-6 text-green-400 group-hover:bg-green-500 group-hover:text-slate-900 transition">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                </div>
+                <h3 class="text-xl font-bold text-white mb-4">RWD 響應式開發</h3>
+                <p class="text-sm text-slate-400">使用 Tailwind CSS 確保在平板與手機端皆能流暢閱讀，提供極速的用戶體驗。</p>
+            </div>
+            <div class="p-8 rounded-3xl glass border border-slate-800 hover:border-green-500/50 transition group">
+                <div class="w-12 h-12 bg-green-500/10 rounded-2xl flex items-center justify-center mb-6 text-green-400 group-hover:bg-green-500 group-hover:text-slate-900 transition">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4"/></svg>
+                </div>
+                <h3 class="text-xl font-bold text-white mb-4">自動化名單系統</h3>
+                <p class="text-sm text-slate-400">串接 Google Sheets 自動收集諮詢名單，實現零後端維護費的高效管理。</p>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
